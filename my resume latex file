@@ -1,0 +1,246 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Sarthak Kumar} 
+    \\ \vspace{1pt} Patna, Bihar, India \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ (+91) 8544110021 \href{mailto:kr.sarthak.77@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{kr.sarthak.77@gmail.com}} ~ 
+    \href{https://linkedin.com/in/sarthak-iri}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/sarthak-iri}}  ~
+    \href{https://github.com/sksarthak}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/sksarthak}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages and Technologies}{: Java, C, HTML/CSS, JavaScript, SQL, LaTex, GitHub} \\
+     \textbf{Tools and Frameworks}{: Atom, NetBeans, Todoist, Figma, Ubuntu, Microsoft Office, UiPath, Matlab }\\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Opulent Infotech}{Jul 2020 -- Jan 2021}
+      {Project Assistant Intern}{Patna, Bihar}
+      \resumeItemListStart
+        \resumeItem{Followed and enhanced the processes for smoothed operations under the guidance of Project Manager.}
+        \resumeItem{Planned, coordinated and recorded device dispatch from control center and installation status for all 38 districts}
+        \resumeItem{Explored ways to visualize and send a daily report of results to team members using Airtable, Excel and UiPath.}
+        \resumeItem{Coordinated with 12+ on-field executives for installation and supporting them on technical aspects. Validated 1000+ installations.}
+  
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Wrytin}{May 2019 -- Jun 2019}
+      {Content Writing Intern}{Patna, Bihar}
+         \resumeItemListStart
+        \resumeItem{Wrote over 44 articles within a span of six weeks with more than 8000 reads in all.}
+        \resumeItem{Collaborated with team members for researching about assigned topics. Brainstormed over 15+ unique ideas.}
+        \resumeItem{Assisted Team Lead in editing and simplified the process of content evaluation. Reduced time needed by 25\%}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+
+    \resumeSubHeadingListStart
+        \resumeSubheading{Major}{}{Smart Antenna for 5G Communication}{Ansys HFSS, emTalk Calc}
+            \resumeItemListStart
+                \resumeItem{Researched thoroughly about 5+ Antenna; their types, behavior, various parameter and possible array structures.}
+                \resumeItem{Incorporated, Analysed and Debugged 8+ Patches, 3 Array formats and 3 BLC 3 different frequencies.}
+                \resumeItem{Reinforced Band-width, Beam-width, Gain and Radiation pattern to achieve the best suited beam-steerable antenna. }
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+        \resumeSubHeadingListStart
+        \resumeSubheading{Minor Projects}{}{}{}
+            \begin{multicols}{2}
+          \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item Gene finding from DNA strands (Java)
+                \item Greeen Screen Algorithm (Javascript)
+                \item Analysis of real-time Earthquake data (Java)
+                \item Movie Recommender System (HTML, CSS, Java)
+                \item Piano Playing Bot
+                \item Matbot for Learners
+                \item Automated logging at startup
+                \item Smart Switch for Home Appliances
+          
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+
+           
+    \resumeSubHeadingListEnd
+
+
+
+
+       
+  
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Birla Institue of Technology Mesra}{Jul. 2017 -- Jun, 2021}
+      {Bachelor of Engineering in Electronics and Communication}{GPA-8.1/10.0}
+       \resumeSubheading
+      {St. Karen's High School}{Jun, 2015 -- May, 2017}
+      {Intermediate}{Score-92.6\%} 
+      \resumeSubheading
+      {St. Karen's Secondary School}{May, 2015}
+      {Matriculation}{CGPA-9.8/10.0}
+  \resumeSubHeadingListEnd
+  
+
+
+%-----------INVOLVEMENT---------------
+\section{Leadership / Extracurricular}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Technical Club}{Jun, 2019 -- May, 2021}{President}{}
+            \resumeItemListStart
+                \resumeItem{Organized 15+ workshops, engaging activities and competitive events on regular intervals.}
+                \resumeItem{Cross functionally aided 4 teams; Event Organising, Resource Management, Finance and Public Relation.}
+                \resumeItem{Led society of 40+ members to work towards goals that augment and promote projects, academics, and unity.}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+        \resumeSubHeadingListStart
+        \resumeSubheading{Literary Club}{Dec, 2019 -- Jun, 2021}{Secretary}{}
+            \resumeItemListStart
+                \resumeItem{Re-established the society to harness interest of students in literature and culture. Received 50+ sign-ups.}
+                \resumeItem{Lead a team of 30 members from different batch and branches. Mentored them and organised 10+ events.}
+                \resumeItem{Designed and deployed an open blogging website for writers with user friendly interface. Got 75+ publish in one month.}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+\end{document}
+
